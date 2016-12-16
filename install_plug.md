@@ -59,7 +59,9 @@ let g:tagbar_type_go = {
 俗话说得好，不能查看目录的编辑器不是一个好的 IDE！为了让我们的 VIM 看起来更加霸气，是绝对不能错过 nerdtree 这款插件的。
 
 进入目录 ~/.vim/bundle 后执行命令 git clone https://github.com/scrooloose/nerdtree.git。
-编辑 ~/.vimrc 文件，加入行 map <C-n> :NERDTreeToggle<CR>。如此一来，当你需要浏览目录的时候，就可以使用快捷键 <Ctrl+n> 来调出浏览窗口了。
+编辑 ~/.vimrc 文件，加入行 map <C-n> :NERDTreeToggle<CR>,如此一来，当你需要浏览目录的时候，就可以使用快捷键 <Ctrl+n> 来调出浏览窗口了。
+
+如此一来，当你需要浏览目录的时候，就可以使用快捷键 <Ctrl+n> 来调出浏览窗口了。
 
 
 
