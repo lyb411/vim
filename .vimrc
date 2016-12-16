@@ -24,7 +24,7 @@ set nowb
 set noswapfile
 set writebackup 
 
-"利用ctrl+n打开做成目录树
+"利用ctrl+n打开做成目录树,ctr+w+w左右目录与文件切换
 map <C-n> :NERDTreeToggle<CR>
 let g:NERDTreeDirArrowExpandable = '▶'
 let g:NERDTreeDirArrowCollapsible = '▷'
