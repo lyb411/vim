@@ -23,6 +23,8 @@ set nobackup
 set nowb
 set noswapfile
 set writebackup 
+filetype plugin indent on
+syntax on
 
 "利用ctrl+n打开做成目录树,ctr+w+w左右目录与文件切换
 map <C-n> :NERDTreeToggle<CR>
